@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2 {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;;
+}
+
+body {
+    color: white;
+    background-color: #031022;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    overflow: hidden;
+    background: #0a192f;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 5vh;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    padding-right: 100px;
+    display: inline-flex;
+    gap: 20px;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.first {
+    margin: 150px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    
+}
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+    margin-left: 30px;
+}
+
+.about-me {
+    width: 500px;
+    justify-content: center;
+    text-align: left;
+    
+
+}
+
+.about-me, h2 {
+    font-size: 35px;
+    padding-bottom: 0%;
+    margin-left: 1px;
+    padding-top: 37px;
+    
+    
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+hr {
+    width: 30vw;
+    background-color: aqua;
+    margin: auto;
+    height: 4px;
+    margin-top: 60px;
+    border: none;
+}
+.education {
+    width: 60vw;
+    margin: auto;
+    
+    
+}
+.education ul {
+    padding: 20px;
+    font-size: 20px;
+    list-style-type: square;
+}
+.education h2 {
+    padding-top: 150px;
+    font-size: 35px;
+    margin-left: 1px;
+    
+}
+.education li {
+    padding: 20px 0;
+    
+}
+.training {
+    width: 60vw;
+    margin: auto;
+}
+.training ul {
+    padding: 20px;
+    font-size: 20px;
+    list-style-type: square;
+}
+.training h2 {
+    padding-top: 150px;
+    font-size: 35px;
+    margin-left: 1px;
+} 
+.training li {
+    padding: 20px 0; 
+}
+.skills {
+    width: 60vw;
+    margin: auto;
+}
+.skills ul {
+    padding: 20px;
+    font-size: 20px;
+    list-style-type: square; 
+}
+.skills h2 {
+    padding-top: 150px;
+    font-size: 35px;
+    margin-left: 1px;
+}
+.skills li {
+    padding: 10px 0; 
+} 
+.projects {
+    width: 60vw;
+    margin: auto;
+}
+.projects ul {
+    padding: 20px;
+    font-size: 20px;
+    list-style-type: square;   
+}
+.projects h2 {
+    padding-top: 150px;
+    font-size: 35px;
+    margin-left: 1px;
+}
+.projects li {
+    padding: 10px 0; 
+}
+.footer {
+  font-size: 15px;
+  margin-bottom: 25px;
+  padding-top: 100px;
+  text-align: center;
+  
+}
